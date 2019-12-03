@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea/
+/.gitignore
+.idea/.gitignore
+.idea/codeStyles/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+java/java.iml
+java/src/test/
+"\345\211\221\346\214\207offer.iml"
+
