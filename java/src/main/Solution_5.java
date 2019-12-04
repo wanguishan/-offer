@@ -26,6 +26,7 @@ public class Solution_5 {
         // 当p1遍历到一个空格时，就需要令p2指向的位置依次填充02%（注意是逆序的），否则就填充上p1指向字符的值
         int p2 = str.length() - 1;
         while (p1 >= 0 && p2 > p1) {
+//            char charAtP1 = str.charAt(p1);
             char charAtP1 = str.charAt(p1--);
             if (charAtP1 == ' ') {
                 str.setCharAt(p2--, '0');
@@ -34,6 +35,7 @@ public class Solution_5 {
             } else {
                 str.setCharAt(p2--, charAtP1);
             }
+//            p1--;
         }
         return str.toString();
     }
