@@ -26,7 +26,7 @@ public class Solution_3 {
         return false;
     }
 
-    protected static void swap(int[] numbers, int i, int j) {
+    private static void swap(int[] numbers, int i, int j) {
         int temp = numbers[i];
         numbers[i] = numbers[j];
         numbers[j] = temp;
