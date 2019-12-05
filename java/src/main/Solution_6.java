@@ -1,5 +1,7 @@
 package main;
 
+import main.utils.ListNode;
+
 import java.util.ArrayList;
 import java.util.Stack;
 

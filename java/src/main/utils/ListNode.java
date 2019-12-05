@@ -1,4 +1,4 @@
-package main;
+package main.utils;
 
 /**
  * 链表类
@@ -7,10 +7,10 @@ package main;
  * @date 2019-12-4 15:27:41
  */
 public class ListNode {
-    int val;
-    ListNode next = null;
+    public int val;
+    public ListNode next = null;
 
-    ListNode(int val) {
+    public ListNode(int val) {
         this.val = val;
     }
 }
