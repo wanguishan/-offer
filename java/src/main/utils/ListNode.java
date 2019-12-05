@@ -1,7 +1,7 @@
 package main.utils;
 
 /**
- * 链表类
+ * Definition for single linked list
  *
  * @author wanguishan
  * @date 2019-12-4 15:27:41
