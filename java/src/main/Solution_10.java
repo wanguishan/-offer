@@ -1,7 +1,5 @@
 package main;
 
-import java.util.Arrays;
-
 /**
  * 斐波那契数列
  *
@@ -24,7 +22,7 @@ public class Solution_10 {
         for (int i = 2; i <= n; i++) {
             fib[i] = fib[i - 1] + fib[i - 2];
         }
-        System.out.println(Arrays.toString(fib));
+        // System.out.println(Arrays.toString(fib));
         return fib[n];
 
     }*/
@@ -43,9 +41,9 @@ public class Solution_10 {
         return res;
     }
 
-
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
+        int n = 10;
+        for (int i = 0; i < n; i++) {
             System.out.println(Fibonacci(i));
         }
 
