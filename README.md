@@ -15,7 +15,7 @@
 |  9   | 用两个栈实现队列     | [Python](python/面试题9：用两个栈实现队列.ipynb "Python题解") | [Java](./java/src/main/Solution_9.java "Java题解")  |
 |  10  | 斐波那契数列         |  [Python](python/面试题10：斐波那契数列.ipynb "Python题解")  | [Java](./java/src/main/Solution_10.java "Java题解") |
 |  11  | 旋转数组的最小数字   | [Python](python/面试题11：旋转数组的最小数字.ipynb "Python题解") | [Java](./java/src/main/Solution_11.java "Java题解") |
-|      |                      |                                                              |                                                     |
+|  12  | 矩阵中的路径         |  [Python](python/面试题12：矩阵中的路径.ipynb "Python题解")  | [Java](./java/src/main/Solution_12.java "Java题解") |
 |      |                      |                                                              |                                                     |
 |      |                      |                                                              |                                                     |
 |      |                      |                                                              |                                                     |
