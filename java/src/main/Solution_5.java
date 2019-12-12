@@ -38,11 +38,4 @@ public class Solution_5 {
         return str.toString();
     }
 
-    public static void main(String[] args) {
-        String str = "I am Wan Guishan!";
-        String result = replaceSpace(new StringBuffer(str));
-
-        System.out.printf("before: %s\n", str);
-        System.out.printf("after: %s", result);
-    }
 }
