@@ -19,29 +19,37 @@ public class Solution_12 {
     private int rows, cols;
 
     public boolean hasPath(char[] matrix, int rows, int cols, char[] str) {
-        if (rows == 0 || cols == 0)
+        if (rows == 0 || cols == 0) {
             return false;
+        }
         this.rows = rows;
         this.cols = cols;
         boolean[][] marked = new boolean[rows][cols];
         char[][] new_matrix = buildMatrix(matrix);
-        for (int i = 0; i < rows; i++)
-            for (int j = 0; j < cols; j++)
-                if (backTracking(new_matrix, str, marked, 0, i, j))
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (backTracking(new_matrix, str, marked, 0, i, j)) {
                     return true;
+                }
+            }
+        }
         return false;
     }
 
     private boolean backTracking(char[][] matrix, char[] str, boolean[][] marked, int pathLen, int r, int c) {
-        if (pathLen == str.length)
+        if (pathLen == str.length) {
             return true;
-        if (r < 0 || r >= rows || c < 0 || c >= cols || matrix[r][c] != str[pathLen] || marked[r][c])
+        }
+        if (r < 0 || r >= rows || c < 0 || c >= cols || matrix[r][c] != str[pathLen] || marked[r][c]) {
             return false;
+        }
         marked[r][c] = true;
 
-        for (int[] n : next)
-            if (backTracking(matrix, str, marked, pathLen + 1, r + n[0], c + n[1]))
+        for (int[] n : next) {
+            if (backTracking(matrix, str, marked, pathLen + 1, r + n[0], c + n[1])) {
                 return true;
+            }
+        }
         marked[r][c] = false;
         return false;
     }
@@ -49,9 +57,11 @@ public class Solution_12 {
     private char[][] buildMatrix(char[] array) {
         char[][] matrix = new char[rows][cols];
         int index = 0;
-        for (int r = 0; r < rows; r++)
-            for (int c = 0; c < cols; c++)
+        for (int r = 0; r < rows; r++) {
+            for (int c = 0; c < cols; c++) {
                 matrix[r][c] = array[index++];
+            }
+        }
         return matrix;
     }
 
