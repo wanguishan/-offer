@@ -32,11 +32,4 @@ public class Solution_3 {
         numbers[j] = temp;
     }
 
-    public static void main(String[] args) {
-        int[] numbers = {2, 3, 1, 0, 2, 5, 3};
-        int length = numbers.length;
-        int[] duplication = new int[length];
-
-        System.out.println(duplicate(numbers, length, duplication));
-    }
 }
