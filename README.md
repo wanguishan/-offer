@@ -18,7 +18,7 @@
 |  12  | 矩阵中的路径         |  [Python](python/面试题12：矩阵中的路径.ipynb "Python题解")  | [Java](./java/src/main/Solution_12.java "Java题解") |
 |  13  | 机器人的运动范围     | [Python](python/面试题13：机器人的运动范围.ipynb "Python题解") | [Java](./java/src/main/Solution_13.java "Java题解") |
 |      |                      |                                                              |                                                     |
-|      |                      |                                                              |                                                     |
+|  15  | 二进制中1的个数      | [Python](python/面试题15：二进制中1的个数.ipynb "Python题解") | [Java](./java/src/main/Solution_15.java "Java题解") |
 |      |                      |                                                              |                                                     |
 |      |                      |                                                              |                                                     |
 |      |                      |                                                              |                                                     |
