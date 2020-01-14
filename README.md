@@ -17,7 +17,7 @@
 |  11  | 旋转数组的最小数字   | [Python](python/面试题11：旋转数组的最小数字.ipynb "Python题解") | [Java](./java/src/main/Solution_11.java "Java题解") |
 |  12  | 矩阵中的路径         |  [Python](python/面试题12：矩阵中的路径.ipynb "Python题解")  | [Java](./java/src/main/Solution_12.java "Java题解") |
 |  13  | 机器人的运动范围     | [Python](python/面试题13：机器人的运动范围.ipynb "Python题解") | [Java](./java/src/main/Solution_13.java "Java题解") |
-|      |                      |                                                              |                                                     |
+|  14  | 剪绳子               |     [Python](python/面试题14：剪绳子.ipynb "Python题解")     | [Java](./java/src/main/Solution_14.java "Java题解") |
 |  15  | 二进制中1的个数      | [Python](python/面试题15：二进制中1的个数.ipynb "Python题解") | [Java](./java/src/main/Solution_15.java "Java题解") |
 |      |                      |                                                              |                                                     |
 |      |                      |                                                              |                                                     |
