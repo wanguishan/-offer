@@ -6,6 +6,7 @@
 
 | 序号 | 问题                 |                            Python                            |                        Java                         |
 | :--: | -------------------- | :----------------------------------------------------------: | :-------------------------------------------------: |
+|  2   | 实现单例模式         |                                                              |  [Java](./java/src/main/Singleton.java "Java题解")  |
 |  3   | 找出数组中重复的数字 | [Python](python/面试题3：找出数组中重复的数字.ipynb "Python题解") | [Java](./java/src/main/Solution_3.java "Java题解")  |
 |  4   | 二维数组中的查找     | [Python](python/面试题4：二维数组中的查找.ipynb "Python题解") | [Java](./java/src/main/Solution_4.java "Java题解")  |
 |  5   | 替换空格             |    [Python](python/面试题5：替换空格.ipynb "Python题解")     | [Java](./java/src/main/Solution_5.java "Java题解")  |
