@@ -20,7 +20,7 @@
 |  14  | 剪绳子               |     [Python](python/面试题14：剪绳子.ipynb "Python题解")     | [Java](./java/src/main/Solution_14.java "Java题解") |
 |  15  | 二进制中1的个数      | [Python](python/面试题15：二进制中1的个数.ipynb "Python题解") | [Java](./java/src/main/Solution_15.java "Java题解") |
 |  16  | 数值的整数次方       | [Python](python/面试题16：数值的整数次方.ipynb "Python题解") | [Java](./java/src/main/Solution_16.java "Java题解") |
-|      |                      |                                                              |                                                     |
+|  67  | 把字符串转换成指数   | [Python](python/面试题67：把字符串转换成整数.ipynb"Python题解") | [Java](./java/src/main/Solution_67.java "Java题解") |
 |      |                      |                                                              |                                                     |
 |      |                      |                                                              |                                                     |
 |      |                      |                                                              |                                                     |
