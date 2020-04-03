@@ -65,12 +65,11 @@ public class Solution_18 {
         }
 
         if (pHead.val == pHead.next.val) {  // 当前节点是重复节点
-            ListNode node = pHead.next;
-            while (node != null && node.val == pHead.val) {
+            while (pHead.next != null && pHead.next.val == pHead.val) {
                 // 跳过值与当前节点相同的全部节点，找到第一个与当前节点不同的节点
-                node = node.next;
+                pHead.next = pHead.next.next;
             }
-            return deleteDuplication(node); // 从第一个与当前节点不同的节点继续递归
+            return deleteDuplication(pHead.next); // 从第一个与当前节点不同的节点继续递归
         } else {
             pHead.next = deleteDuplication(pHead.next); // 保留当前节点，从下一个节点继续递归
             return pHead;
