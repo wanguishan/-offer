@@ -22,6 +22,7 @@
 |  15  | 二进制中1的个数      | [Python](python/面试题15：二进制中1的个数.ipynb "Python题解") | [Java](./java/src/main/Solution_15.java "Java题解") |
 |  16  | 数值的整数次方       | [Python](python/面试题16：数值的整数次方.ipynb "Python题解") | [Java](./java/src/main/Solution_16.java "Java题解") |
 |  17  | 打印从1到最大的n位数 |                                                              | [Java](./java/src/main/Solution_17.java "Java题解") |
+|  18  | 删除链表的节点       | [Python](python/面试题18：删除链表的节点.ipynb "Python题解") | [Java](./java/src/main/Solution_18.java "Java题解") |
 |  64  | 求1+2+……+n           |   [Python](python/面试题64：求1+2+……+n.ipynb "Python题解")   | [Java](./java/src/main/Solution_64.java "Java题解") |
 |  65  | 不用加减乘除做加法   | [Python](python/面试题65：不用加减乘除做加法.ipynb "Python题解") | [Java](./java/src/main/Solution_65.java "Java题解") |
 |  66  | 构建乘积数组         |  [Python](python/面试题66：构建乘积数组.ipynb "Python题解")  | [Java](./java/src/main/Solution_66.java "Java题解") |
