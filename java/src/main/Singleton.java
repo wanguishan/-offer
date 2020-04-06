@@ -33,7 +33,7 @@ public class Singleton {
     }*/
 
 /*    // 双重校验锁（double-checked locking）
-    private volatile static Singleton singleton;
+    private volatile static Singleton singleton;    // volatile可以禁止JVM的指令重排，保证在多线程环境下也能正常运行
 
     private Singleton() {}
 
