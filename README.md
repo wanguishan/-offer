@@ -30,6 +30,7 @@
 |  27  | 二叉树的镜像                   |  [Python](python/面试题27：二叉树的镜像.ipynb "Python题解")  | [Java](./java/src/main/Solution_27.java "Java题解") |
 |  28  | 对称的二叉树                   |  [Python](python/面试题28：对称的二叉树.ipynb "Python题解")  | [Java](./java/src/main/Solution_28.java "Java题解") |
 |  32  | 从上到下打印二叉树             | [Python](python/面试题32：从上到下打印二叉树.ipynb "Python题解") | [Java](./java/src/main/Solution_32.java "Java题解") |
+|  55  | 二叉树的深度                   |  [Python](python/面试题55：二叉树的深度.ipynb "Python题解")  | [Java](./java/src/main/Solution_55.java "Java题解") |
 |  64  | 求1+2+……+n                     |   [Python](python/面试题64：求1+2+……+n.ipynb "Python题解")   | [Java](./java/src/main/Solution_64.java "Java题解") |
 |  65  | 不用加减乘除做加法             | [Python](python/面试题65：不用加减乘除做加法.ipynb "Python题解") | [Java](./java/src/main/Solution_65.java "Java题解") |
 |  66  | 构建乘积数组                   |  [Python](python/面试题66：构建乘积数组.ipynb "Python题解")  | [Java](./java/src/main/Solution_66.java "Java题解") |
