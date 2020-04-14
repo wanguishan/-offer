@@ -26,6 +26,7 @@
 |  19  | 正则表达式匹配                 | [Python](python/面试题19：正则表达式匹配.ipynb "Python题解") | [Java](./java/src/main/Solution_19.java "Java题解") |
 |  20  | 表示数值的字符串               | [Python](python/面试题20：表示数值的字符串.ipynb "Python题解") | [Java](./java/src/main/Solution_20.java "Java题解") |
 |  21  | 调整数组顺序使奇数位于偶数前面 | [Python](python/面试题21：调整数组顺序使奇数位于偶数前面.ipynb "Python题解") | [Java](./java/src/main/Solution_21.java "Java题解") |
+|  26  | 树的子结构                     |   [Python](python/面试题26：树的子结构.ipynb "Python题解")   | [Java](./java/src/main/Solution_26.java "Java题解") |
 |  64  | 求1+2+……+n                     |   [Python](python/面试题64：求1+2+……+n.ipynb "Python题解")   | [Java](./java/src/main/Solution_64.java "Java题解") |
 |  65  | 不用加减乘除做加法             | [Python](python/面试题65：不用加减乘除做加法.ipynb "Python题解") | [Java](./java/src/main/Solution_65.java "Java题解") |
 |  66  | 构建乘积数组                   |  [Python](python/面试题66：构建乘积数组.ipynb "Python题解")  | [Java](./java/src/main/Solution_66.java "Java题解") |
