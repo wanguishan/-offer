@@ -35,7 +35,7 @@
 |  66  | 构建乘积数组                   |  [Python](python/面试题66：构建乘积数组.ipynb "Python题解")  | [Java](./java/src/main/Solution_66.java "Java题解") |
 |  67  | 把字符串转换成整数             | [Python](python/面试题67：把字符串转换成整数.ipynb "Python题解") | [Java](./java/src/main/Solution_67.java "Java题解") |
 |  68  | 二叉搜索树的最近公共祖先       |                                                              | [Java](./java/src/main/Solution_68.java "Java题解") |
-|      |                                |                                                              |                                                     |
+|  69  | 二叉树的最近公共祖先           |                                                              | [Java](./java/src/main/Solution_69.java "Java题解") |
 |      |                                |                                                              |                                                     |
 
 
