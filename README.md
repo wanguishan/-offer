@@ -29,11 +29,14 @@
 |  26  | 树的子结构                     |   [Python](python/面试题26：树的子结构.ipynb "Python题解")   | [Java](./java/src/main/Solution_26.java "Java题解") |
 |  27  | 二叉树的镜像                   |  [Python](python/面试题27：二叉树的镜像.ipynb "Python题解")  | [Java](./java/src/main/Solution_27.java "Java题解") |
 |  28  | 对称的二叉树                   |  [Python](python/面试题28：对称的二叉树.ipynb "Python题解")  | [Java](./java/src/main/Solution_28.java "Java题解") |
+|  30  | 包含min函数的栈                | [Python](python/面试题30：包含min函数的栈.ipynb "Python题解") | [Java](./java/src/main/Solution_30.java "Java题解") |
 |  32  | 从上到下打印二叉树             | [Python](python/面试题32：从上到下打印二叉树.ipynb "Python题解") | [Java](./java/src/main/Solution_32.java "Java题解") |
 |  39  | 数组中出现次数超过一半的数字   | [Python](python/面试题39：数组中出现次数超过一半的数字.ipynb "Python题解") | [Java](./java/src/main/Solution_39.java "Java题解") |
 |  40  | 最小的k个数                    |  [Python](python/面试题40：最小的k个数.ipynb "Python题解")   | [Java](./java/src/main/Solution_40.java "Java题解") |
+|  41  | 数据流中的中位数               | [Python](python/面试题41：数据流中的中位数.ipynb "Python题解") | [Java](./java/src/main/Solution_41.java "Java题解") |
 |  45  | 把数组排成最小的数             | [Python](python/面试题45：把数组排成最小的数.ipynb "Python题解") | [Java](./java/src/main/Solution_45.java "Java题解") |
 |  55  | 二叉树的深度                   |  [Python](python/面试题55：二叉树的深度.ipynb "Python题解")  | [Java](./java/src/main/Solution_55.java "Java题解") |
+|  59  | 滑动窗口的最大值               | [Python](python/面试题59：滑动窗口的最大值.ipynb "Python题解") | [Java](./java/src/main/Solution_59.java "Java题解") |
 |  64  | 求1+2+……+n                     |   [Python](python/面试题64：求1+2+……+n.ipynb "Python题解")   | [Java](./java/src/main/Solution_64.java "Java题解") |
 |  65  | 不用加减乘除做加法             | [Python](python/面试题65：不用加减乘除做加法.ipynb "Python题解") | [Java](./java/src/main/Solution_65.java "Java题解") |
 |  66  | 构建乘积数组                   |  [Python](python/面试题66：构建乘积数组.ipynb "Python题解")  | [Java](./java/src/main/Solution_66.java "Java题解") |

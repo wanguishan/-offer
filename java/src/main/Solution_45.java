@@ -1,7 +1,6 @@
 package main;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 /**
  * 把数组排成最小的数
