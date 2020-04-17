@@ -35,6 +35,7 @@
 |  40  | 最小的k个数                    |  [Python](python/面试题40：最小的k个数.ipynb "Python题解")   | [Java](./java/src/main/Solution_40.java "Java题解") |
 |  41  | 数据流中的中位数               | [Python](python/面试题41：数据流中的中位数.ipynb "Python题解") | [Java](./java/src/main/Solution_41.java "Java题解") |
 |  45  | 把数组排成最小的数             | [Python](python/面试题45：把数组排成最小的数.ipynb "Python题解") | [Java](./java/src/main/Solution_45.java "Java题解") |
+|  52  | 两个链表的第一个公共节点       | [Python](python/面试题52：两个链表的第一个公共节点.ipynb "Python题解") | [Java](./java/src/main/Solution_52.java "Java题解") |
 |  55  | 二叉树的深度                   |  [Python](python/面试题55：二叉树的深度.ipynb "Python题解")  | [Java](./java/src/main/Solution_55.java "Java题解") |
 |  59  | 滑动窗口的最大值               | [Python](python/面试题59：滑动窗口的最大值.ipynb "Python题解") | [Java](./java/src/main/Solution_59.java "Java题解") |
 |  64  | 求1+2+……+n                     |   [Python](python/面试题64：求1+2+……+n.ipynb "Python题解")   | [Java](./java/src/main/Solution_64.java "Java题解") |
