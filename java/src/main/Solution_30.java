@@ -65,7 +65,7 @@ class MinStack {
     }
 
     public void push(int x) {
-        // 辅助栈为空时，也要把当前值压栈
+        // 注：辅助栈为空时，也要把当前值压栈
         if (s2.isEmpty() || x <= s2.peek()) {
             s2.push(x);
         }
