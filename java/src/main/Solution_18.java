@@ -77,8 +77,7 @@ public class Solution_18 {
     }
 
     /**
-     * 非递归
-     * pre始终指向下一个不重复的节点
+     * 非递归(双指针)
      *
      * @param pHead
      * @return
@@ -88,23 +87,81 @@ public class Solution_18 {
             return pHead;
         }
 
-        ListNode pre = null, cur = pHead;
+        ListNode dummy = new ListNode(0);
+        dummy.next = pHead;
+
+        ListNode cur = pHead;
+        ListNode pre = dummy;
+
         while (cur != null) {
-            if (cur.next != null && cur.next.val == cur.val) {
-                while (cur.next != null && cur.next.val == cur.val) {
-                    cur = cur.next;
-                }
-                if (pre == null) {
-                    pHead = cur.next;
-                } else {
-                    pre.next = cur.next;
-                }
+            while (cur.next != null && cur.val == cur.next.val) {
+                cur = cur.next;
+            }
+            cur = cur.next;
+
+            if (pre.next.next == cur) {
+                pre = pre.next;
             } else {
-                pre = cur;
+                pre.next = cur;
+            }
+        }
+        return dummy.next;
+    }
+
+}
+
+/**
+ * 删除链表的节点(根据值删除节点，并返回头节点)
+ *
+ * 给定单向链表的头指针和一个要删除的节点的值，定义一个函数删除该节点。
+ *
+ * 返回删除后的链表的头节点。
+ */
+class deleteNode {
+    public ListNode deleteNode(ListNode head, int val) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode cur = dummy;
+
+        while (cur.next != null) {
+            if (cur.next.val == val) {
+                // 当val是最后一个结点时
+                if (cur.next.next == null) {
+                    cur.next = null;
+                    break;
+                }
+                cur.next = cur.next.next;
             }
             cur = cur.next;
         }
-        return pHead;
+        return dummy.next;
     }
 
+    /**
+     * 双指针写法
+     *
+     * @param head
+     * @param val
+     * @return
+     */
+    public ListNode deleteNode_2(ListNode head, int val) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+
+        ListNode cur = head;
+        ListNode pre = dummy;
+
+        while (cur != null) {
+            // 第一种情况，cur当前的值是val，则cur继续向前，pre来删除
+            if (cur.val == val) {
+                cur = cur.next;
+                pre.next = cur;
+            } else {
+                // 第二种情况，cur和pre都向前移动一个结点
+                cur = cur.next;
+                pre = pre.next;
+            }
+        }
+        return dummy.next;
+    }
 }
