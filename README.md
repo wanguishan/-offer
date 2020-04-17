@@ -26,6 +26,7 @@
 |  19  | 正则表达式匹配                 | [Python](python/面试题19：正则表达式匹配.ipynb "Python题解") | [Java](./java/src/main/Solution_19.java "Java题解") |
 |  20  | 表示数值的字符串               | [Python](python/面试题20：表示数值的字符串.ipynb "Python题解") | [Java](./java/src/main/Solution_20.java "Java题解") |
 |  21  | 调整数组顺序使奇数位于偶数前面 | [Python](python/面试题21：调整数组顺序使奇数位于偶数前面.ipynb "Python题解") | [Java](./java/src/main/Solution_21.java "Java题解") |
+|  25  | 合并两个排序的链表             | [Python](python/面试题25：合并两个排序的链表.ipynb "Python题解") | [Java](./java/src/main/Solution_25.java "Java题解") |
 |  26  | 树的子结构                     |   [Python](python/面试题26：树的子结构.ipynb "Python题解")   | [Java](./java/src/main/Solution_26.java "Java题解") |
 |  27  | 二叉树的镜像                   |  [Python](python/面试题27：二叉树的镜像.ipynb "Python题解")  | [Java](./java/src/main/Solution_27.java "Java题解") |
 |  28  | 对称的二叉树                   |  [Python](python/面试题28：对称的二叉树.ipynb "Python题解")  | [Java](./java/src/main/Solution_28.java "Java题解") |
