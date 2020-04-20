@@ -53,7 +53,7 @@ public class Solution_18 {
     }
 
     /**
-     * 删除链表中重复的节点（递归法）
+     * leetcode 82: 删除链表中重复的节点-重复节点不保留（递归法）
      * 在一个排序的链表中，存在重复的结点，请删除该链表中重复的结点，重复的结点不保留，返回链表头指针
      *
      * @param pHead
@@ -78,9 +78,6 @@ public class Solution_18 {
 
     /**
      * 非递归(双指针)
-     *
-     * @param pHead
-     * @return
      */
     public ListNode deleteDuplication_2(ListNode pHead) {
         if (pHead == null || pHead.next == null) {
@@ -99,7 +96,7 @@ public class Solution_18 {
             }
             cur = cur.next;
 
-            if (pre.next.next == cur) {
+            if (pre.next.next == cur) { // 根据pre和cur之间的间隔是否为1来判断中间是否有重复节点
                 pre = pre.next;
             } else {
                 pre.next = cur;
@@ -107,17 +104,35 @@ public class Solution_18 {
         }
         return dummy.next;
     }
-
 }
 
 /**
- * 删除链表的节点(根据值删除节点，并返回头节点)
+ * leetcode 83: 删除排序链表中的重复元素-重复节点保留一个
  *
- * 给定单向链表的头指针和一个要删除的节点的值，定义一个函数删除该节点。
- *
- * 返回删除后的链表的头节点。
+ * 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
  */
-class deleteNode {
+class DeleteDuplicates {
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode cur = head;
+        while (cur != null && cur.next != null) {
+            if (cur.val == cur.next.val) {
+                cur.next = cur.next.next;
+            } else {
+                cur = cur.next;
+            }
+        }
+        return head;
+    }
+}
+
+/**
+ * leetcode:203 删除链表的节点(根据值删除节点，并返回头节点)
+ */
+class DeleteNode {
     public ListNode deleteNode(ListNode head, int val) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
@@ -125,24 +140,16 @@ class deleteNode {
 
         while (cur.next != null) {
             if (cur.next.val == val) {
-                // 当val是最后一个结点时
-                if (cur.next.next == null) {
-                    cur.next = null;
-                    break;
-                }
                 cur.next = cur.next.next;
+            } else {
+                cur = cur.next;
             }
-            cur = cur.next;
         }
         return dummy.next;
     }
 
     /**
      * 双指针写法
-     *
-     * @param head
-     * @param val
-     * @return
      */
     public ListNode deleteNode_2(ListNode head, int val) {
         ListNode dummy = new ListNode(0);
