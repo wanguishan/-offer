@@ -74,6 +74,7 @@ class MinStack {
 
     public void pop() {
 
+        // 对于Integer，如果用 == 比较，需保证[-128,127]
         if (s1.pop().equals(s2.peek())) {
             s2.pop();
         }

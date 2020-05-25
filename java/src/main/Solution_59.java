@@ -25,7 +25,7 @@ public class Solution_59 {
         }
         int[] res = new int[n - k + 1] ;
 
-        // deque里面存的是数组的index，不是值s
+        // deque里面存的是数组的index，不是值
         Deque<Integer> deque = new LinkedList<>();
 
         for (int i = 0; i < n; i++) {
@@ -88,7 +88,8 @@ class MaxQueue {
         if (queue.isEmpty()) {
             return -1;
         }
-        int res = queue.poll(); // res是主队列出队的值
+        // res是主队列出队的值
+        int res = queue.poll();
         if (res == deque.getFirst()) {
             deque.removeFirst();
         }
