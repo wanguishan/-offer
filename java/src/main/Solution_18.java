@@ -23,17 +23,17 @@ public class Solution_18 {
 
         // 要删除的节点是尾节点
         if (targetNode.next == null) {
-            ListNode currentNode = pHead;
-            if (currentNode == targetNode) {        // 链表中只有一个节点，删除该节点是应该同时将指向它的引用都置为null
+            ListNode cur = pHead;
+            if (cur == targetNode) {        // 链表中只有一个节点，删除该节点是应该同时将指向它的引用都置为null
                 targetNode = null;
                 pHead = null;
-                currentNode = null;
+                cur = null;
             } else {                                // 链表中有多个节点
-                while (currentNode != null && currentNode.next != targetNode) {
-                    currentNode = currentNode.next;
+                while (cur != null && cur.next != targetNode) {
+                    cur = cur.next;
                 }
-                if (currentNode != null) {
-                    currentNode.next = currentNode.next.next;
+                if (cur != null) {
+                    cur.next = cur.next.next;
                     targetNode.next = null;
                 } else {                            // 要删除的节点不在链表中
                     return;
@@ -138,12 +138,11 @@ class DeleteNode {
         dummy.next = head;
         ListNode cur = dummy;
 
-        while (cur.next != null) {
+        while (cur != null && cur.next != null) {
             if (cur.next.val == val) {
                 cur.next = cur.next.next;
-            } else {
-                cur = cur.next;
             }
+            cur = cur.next;
         }
         return dummy.next;
     }
