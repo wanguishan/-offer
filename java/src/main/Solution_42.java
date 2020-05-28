@@ -20,4 +20,25 @@ public class Solution_42 {
         }
         return maxSum;
     }
+
+    /**
+     * 动态规划
+     *
+     * @param nums
+     * @return
+     */
+    public int maxSubArray_2(int[] nums) {
+
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i - 1] > 0) {
+                nums[i] += nums[i - 1];
+            }
+
+        }
+        int res = nums[0];
+        for (int i = 0; i < nums.length; i++) {
+            res = Math.max(res, nums[i]);
+        }
+        return res;
+    }
 }
