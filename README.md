@@ -39,6 +39,7 @@
 |  39  | 数组中出现次数超过一半的数字   | [Python](python/面试题39：数组中出现次数超过一半的数字.ipynb "Python题解") | [Java](./java/src/main/Solution_39.java "Java题解") |
 |  40  | 最小的k个数                    |  [Python](python/面试题40：最小的k个数.ipynb "Python题解")   | [Java](./java/src/main/Solution_40.java "Java题解") |
 |  41  | 数据流中的中位数               | [Python](python/面试题41：数据流中的中位数.ipynb "Python题解") | [Java](./java/src/main/Solution_41.java "Java题解") |
+|  42  | 连续子数组的最大和             | [Python](python/面试题42：连续子数组的最大和.ipynb "Python题解") | [Java](./java/src/main/Solution_42.java "Java题解") |
 |  45  | 把数组排成最小的数             | [Python](python/面试题45：把数组排成最小的数.ipynb "Python题解") | [Java](./java/src/main/Solution_45.java "Java题解") |
 |  52  | 两个链表的第一个公共节点       | [Python](python/面试题52：两个链表的第一个公共节点.ipynb "Python题解") | [Java](./java/src/main/Solution_52.java "Java题解") |
 |  54  | 二叉搜索树的第k大节点          | [Python](python/面试题54：二叉搜索树的第k个结点.ipynb "Python题解") | [Java](./java/src/main/Solution_54.java "Java题解") |
